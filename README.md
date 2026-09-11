@@ -1,7 +1,19 @@
-```markdown
 # 🎙️ Speech-to-Summary & Subtitle Transcriber
 
 A high-performance Python & Gradio application that transcribes audio recordings (via file upload or native microphone streaming), generates precise sentence/time-segmented transcripts, creates downloadable `.srt` and `.vtt` subtitle files, and synthesizes structured executive meeting minutes using OpenAI LLMs.
+
+---
+
+## Demo
+
+This project demonstrates an end-to-end speech processing workflow:
+
+- Accepts audio input through a Gradio interface
+- Transcribes speech using Whisper
+- Generates an AI-powered summary
+- Produces timestamped SRT/VTT subtitles
+- Converts the transcript into structured meeting notes
+- Provides an interactive visualization of the results
 
 ---
 
@@ -37,7 +49,7 @@ Ensure Python 3.10+ and `ffmpeg` are installed on your system.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/speech-to-summary.git](https://github.com/your-username/speech-to-summary.git)
+git clone https://github.com/FMangiwa/speech-to-summary.git
 cd speech-to-summary
 
 # Create and activate virtual environment
@@ -96,4 +108,10 @@ Open the local server URL provided in the terminal (typically `http://127.0.0.1:
 
 ```
 
-```
+---
+
+## License
+
+See `LICENSE`.
+
+---
