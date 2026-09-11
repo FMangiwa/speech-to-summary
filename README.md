@@ -106,8 +106,6 @@ Open the local server URL provided in the terminal (typically `http://127.0.0.1:
 * **Stale Audio Processing:** If the app processes an old microphone recording instead of a newly uploaded file, click **🔄 Reset / Clear** to wipe JavaScript state buffers.
 * **Missing Subtitle Outputs:** Ensure system `ffmpeg` is properly configured in your system `PATH` if Whisper fails to process raw compressed audio formats.
 
-```
-
 ---
 
 ## License
