@@ -1,0 +1,17 @@
+# Web Framework & UI
+gradio>=6.0.0
+
+# Machine Learning & AI
+torch
+transformers
+accelerate
+openai>=1.0.0
+
+# Audio Processing & Utilities
+librosa
+soundfile
+numpy
+
+# Environment & System Management
+python-dotenv
+pydantic
